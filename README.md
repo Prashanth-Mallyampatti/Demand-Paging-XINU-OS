@@ -4,7 +4,7 @@ Adding demand paging method and memory mapping to schemes to XINU kernel
 Demand paging is a method of mapping a large address space into a relatively small amount of physical memory. It allows a program to use an address space that is larger than the physical memory, and access non-contiguous sections of the physical memory in a contiguous way. Demand paging is accomplished by using a "backing store" (usually disk) to hold pages of memory that are not currently in use.
 
 Read the following Inter documents to get comfortable with paging concepts and Intel specific details:
-
+https://github.com/Prashanth-Mallyampatti/Demand-Paging-XINU-OS/blob/master/Intel%20Virtual%20Memory.pdf
 https://software.intel.com/en-us/articles/intel-sdm
 
 XINU setup has been explained in "Exploring-XINU" repository: https://github.com/Prashanth-Mallyampatti/Exploring-XINU/blob/master/README.md
